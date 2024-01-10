@@ -45,7 +45,7 @@
         </Cards>
         <Cards href="TimeBomb">
           <template #title>TimeBomb</template>
-          <template #content>La Code Game Jam 2023 et notre jeu phare, TimeBomb !</template>
+          <template #content>La Code Game Jam 2023 et notre jeu multijoueur phare, TimeBomb !</template>
         </Cards>
       </template>
       <template #projects-row2>
@@ -58,33 +58,14 @@
   </div>
 
   <div class="section">
-    <div class="socials reveal">
-      <h2>Réseaux</h2>
-      <div class="list">
-        <div class="left">
-          <h3>Rejoignez-moi</h3>
-          <p>sur mes réseaux sociaux</p>
-          <p>pour plus d'informations</p>
-          <p>et de projets en cours</p>
-          <p>ou à venir...</p>
-        </div>
-        <ul>
-          <li style="--i:6;--clr:#49d749;"><a href="https://github.com/TheKingL"><span><i class="fa-brands fa-github"></i></span>
-            Github</a></li>
-          <li style="--i:5;--clr:#0a66c2;"><a href="https://www.linkedin.com/in/loris-c-8a9661230/"><span><i class="fa-brands fa-linkedin"></i></span>
-            Linkedin</a></li>
-          <li style="--i:4;--clr:#e5d812;"><a href="mailto:loris.cazaux@gmail.com"><span><i class="fa-regular fa-envelope"></i></span>
-            Mail</a></li>
-          <li style="--i:3;--clr:#FF0000;"><a href="assets/CV.pdf" download="cv"><span><i class="fa-solid fa-download"></i></span>
-            CV</a></li>
-        </ul>
-      </div>
-    </div>
+    <Socials />
   </div>
 </template>
+
 <script setup lang="ts">
 import Parallax from "@/components/Parallax.vue";
 import Readme from "@/components/Readme.vue";
 import Projects from "@/components/Projects.vue";
 import Cards from "@/components/Cards.vue";
+import Socials from "@/components/Socials.vue";
 </script>

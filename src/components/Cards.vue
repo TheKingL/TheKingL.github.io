@@ -13,19 +13,17 @@
 </script>
 
 <template>
-  <div class="text-card">
-    <h3 class="flex justify-center text-2xl font-bold">
+  <div class="bg-card flex flex-col justify-center items-center space-y-2 p-4 w-full">
+    <h3 class="flex justify-center text-2xl font-bold text-white">
       <slot name="title"></slot>
     </h3>
-    <p>
+    <p class="text-center">
       <slot name="content"></slot>
     </p>
-    <button class="btn">
-      <span class="material-symbols-outlined"
-            v-bind:class="props.href"
-            @click="goTo(props.href)">
-        arrow_circle_right
-      </span>
-    </button>
+    <span class="material-symbols-outlined cursor-pointer text-4xl select-none text-white"
+          v-bind:class="props.href"
+          @click="goTo(props.href)">
+      arrow_circle_right
+    </span>
   </div>
 </template>

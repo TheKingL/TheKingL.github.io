@@ -1,14 +1,12 @@
 <template>
-  <div class="reveal">
-    <h2 class="flex justify-center text-6xl font-bold">
+  <div class="reveal space-y-16">
+    <h2 class="flex justify-center md:text-6xl text-4xl font-bold uppercase">
       <slot name="title"></slot>
     </h2>
 
-    <div class="cards">
+    <div class="grid md:grid-cols-3 md:grid-rows-2 gap-8 p-16 w-full grid-cols-1 grid-rows-8">
       <slot name="projects-row1"></slot>
       <slot name="projects-row2"></slot>
     </div>
   </div>
 </template>
-<script setup lang="ts">
-</script>

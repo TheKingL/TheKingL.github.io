@@ -1,6 +1,6 @@
 <template>
-  <div class="m-44 reveal space-y-20">
-    <h2 class="flex justify-center text-6xl font-bold">
+  <div class="w-1/2 reveal space-y-20">
+    <h2 class="flex justify-center md:text-6xl text-4xl font-bold uppercase">
       <slot name="title"></slot>
     </h2>
 
