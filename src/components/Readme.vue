@@ -1,13 +1,13 @@
 <template>
-  <div class="w-1/2 reveal space-y-20">
-    <h2 class="flex justify-center md:text-6xl text-4xl font-bold uppercase">
+  <div class="w-3/4 reveal space-y-20 p-4">
+    <h2 class="flex justify-center items-center text-center md:text-6xl text-4xl font-bold uppercase">
       <slot name="title"></slot>
     </h2>
 
     <div class="window">
       <div class="bg-titlebar text-white flex flex-row items-center p-2 w-full">
 
-        <div class="flex flex-row items-center space-x-1">
+        <div class="flex flex-row absolute items-center space-x-1">
           <div class="close"></div>
           <div class="minimize"></div>
           <div class="zoom"></div>

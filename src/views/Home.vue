@@ -53,6 +53,14 @@
           <template #title>Peach</template>
           <template #content>Projet de la Nuit De L'Info 2023 autour de Sida Info Service Association.</template>
         </Cards>
+        <Cards href="Portefolio">
+          <template #title>Portefolio</template>
+          <template #content>Mon portefolio (ici), un projet personnel pour me présenter et présenter mes projets.</template>
+        </Cards>
+        <Cards href="SkyLink">
+          <template #title>SkyLink</template>
+          <template #content>Une application web développée durant mon alternance pour aider les pilotes de RTE.</template>
+        </Cards>
       </template>
     </Projects>
   </div>
@@ -66,6 +74,6 @@
 import Parallax from "@/components/Parallax.vue";
 import Readme from "@/components/Readme.vue";
 import Projects from "@/components/Projects.vue";
-import Cards from "@/components/Cards.vue";
+import Cards from "@/components/Card.vue";
 import Socials from "@/components/Socials.vue";
 </script>

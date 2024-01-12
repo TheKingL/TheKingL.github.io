@@ -20,7 +20,8 @@
     <p class="text-center">
       <slot name="content"></slot>
     </p>
-    <span class="material-symbols-outlined cursor-pointer text-4xl select-none text-white"
+    <span v-if="props.href"
+          class="material-symbols-outlined cursor-pointer text-4xl select-none text-white"
           v-bind:class="props.href"
           @click="goTo(props.href)">
       arrow_circle_right
