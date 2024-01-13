@@ -22,7 +22,20 @@ import Galerie from "@/components/Galerie.vue";
       <template #title>Résumé</template>
       <template #titlebar-title>SkyLink.md</template>
       <template #content>
-
+        <p class="text-2xl font-bold">Qu'est-ce que SkyLink ?</p>
+        <p>
+          SkyLink est une application Web que j'ai réalisé (et qui est toujours en cours de développement) durant mon alternance a RTE en troisème année de BUT Informatique.
+          Cette application permet aux pilotes et task specialist du STH (Service Travaux Héliportés) de gérer les dossiers de vol et les fichiers de transports de marchandise dangereuse.
+        </p>
+        <p>
+          Le site est développé en HTML, CSS et JavaScript avec le framework python Django et à été un réel défi puisque j'ai été seul sur ce projet du début à la fin.
+          J'ai dû mettre en place un serveur d'hébergement et dû développer de manière qualitative et efficace ce site dont je suis très fier.
+        </p>
+        <p>
+          Le site est responsive et s'adapte à tous les écrans.
+          Il est utilisable sur ordinateur, tablette et smartphone !
+        </p>
+        <p><strong><u>Compétences :</u></strong> Python, Django, HTML, CSS, JavaScript, Git, GitHub, Discord, JetBrains, Sqlite, Management, Trello</p>
       </template>
     </Readme>
   </div>
